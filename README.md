@@ -1,54 +1,56 @@
-Ã¸¹Ï§Þ³N³]­p»PÀ³¥ÎHW3-µ§°O
+ç¹ªåœ–æŠ€è¡“è¨­è¨ˆèˆ‡æ‡‰ç”¨HW3-ç­†è¨˜
 ============
-§@·~Àô¹Ò
+ä½œæ¥­ç’°å¢ƒ
 ===
 Windows10, visual studio 2015
 
-¤èªk»¡©ú
+æ–¹æ³•èªªæ˜Ž
 ====
 
-¶i¤Jbuild/Release
-¶}±ÒConsoleApplication.exe
+é€²å…¥build/Release
+é–‹å•ŸConsoleApplication.exe
 
-µ{¦¡¦p¦ó¹B¦æ
+ç¨‹å¼å¦‚ä½•é‹è¡Œ
 ==
 
-**Åª object**
-1. ¥Îblender«Ø¥ß¸}¦â¦U³¡¦ìªº¼Ò«¬
-2. tiny_object_loader.h¨ÓÅª¨ú.objÀÉ
-3. add§¹object
+**è®€ object**
+1. ç”¨blenderå»ºç«‹è…³è‰²å„éƒ¨ä½çš„æ¨¡åž‹
+2. tiny_object_loader.hä¾†è®€å–.objæª”
+3. addå®Œobject
 
 **Hierarchy**
-1. «Ø¥ßTREE=>tree.h
-2. apendChild(¨Ò¦p·Q­n·s¼Wshoulder¡A¨º´N·|¥ýBFS§ä¨ìbodyªºnode, µM«á¦AappendChild )
-3. ¤§«á²¾°Ê©Î±ÛÂà¥ô·Nobject¡A¨ä©³¤U©Ò¦³Child³£·|¸òµÛ°Ê~
+1. å»ºç«‹TREE=>tree.h
+2. apendChild(ä¾‹å¦‚æƒ³è¦æ–°å¢žshoulderï¼Œé‚£å°±æœƒå…ˆBFSæ‰¾åˆ°bodyçš„node, ç„¶å¾Œå†appendChild )
+3. ä¹‹å¾Œç§»å‹•æˆ–æ—‹è½‰ä»»æ„objectï¼Œå…¶åº•ä¸‹æ‰€æœ‰Childéƒ½æœƒè·Ÿè‘—å‹•~
 
-**«e«á¥ª¥k**
-1. ¦b¨C­ÓframeÅª¨ú«öÁä¬O§_³Q«öÀ£
-2. ¨C«öÀ£+=©Î-=¬Y¨Ç¼Æ­È
-3. ¹F¦¨«e¶i«á°h¥ªÂà¥kÂàªº®ÄªG
+**å‰å¾Œå·¦å³**
+1. åœ¨æ¯å€‹frameè®€å–æŒ‰éµæ˜¯å¦è¢«æŒ‰å£“
+2. æ¯æŒ‰å£“+=æˆ–-=æŸäº›æ•¸å€¼
+3. é”æˆå‰é€²å¾Œé€€å·¦è½‰å³è½‰çš„æ•ˆæžœ
 
-**¸õÅD**
-1. «ö¤U"SPACE"ªº·í¤U¬ö¿ý¤@®É¶¡
-2. ¤§«á«ùÄò+=(°ª«×)
-3. ¹L0.5¬í«á¶}©l´«¦¨-=(°ª«×)
-4. ¨ì1¬í«K¦^¨ì­ì¥»°ª«×¨Ã¤ÁÂù¸}¦X¨Ö
+**è·³èº**
+1. æŒ‰ä¸‹"SPACE"çš„ç•¶ä¸‹ç´€éŒ„ä¸€æ™‚é–“
+2. ä¹‹å¾ŒæŒçºŒ+=(é«˜åº¦)
+3. éŽ0.5ç§’å¾Œé–‹å§‹æ›æˆ-=(é«˜åº¦)
+4. åˆ°1ç§’ä¾¿å›žåˆ°åŽŸæœ¬é«˜åº¦ä¸¦åˆ‡é›™è…³åˆä½µ
 
-µ{¦¡¦p¦ó¾Þ§@
+ç¨‹å¼å¦‚ä½•æ“ä½œ
 ==
 
-1. ¶}±Ò°õ¦æÀÉ«á
-2. Áä½Lªº¤W¤U¥ª¥k¥i¥H±±¨î¸}¦â²¾°Ê
-3. «öÁä"C"¥i¥H¤Á´«camera¦ì¸m
-4. Áä½L"W""A""S""D"¥i¥H¦bªÅ¶¡¤¤²¾°Ê(²¾°Êcamera)
-5. Áä½L"SPACE"¥i¥H¨Ï¸}¦â¸õÅD
-6. ·Æ¹«²¾°Ê¥i¥HÂà°Êµø¨¤
-7. ·Æ¹«ºu½ü¥i¥HZOOM
+1. é–‹å•ŸåŸ·è¡Œæª”å¾Œ
+2. éµç›¤çš„ä¸Šä¸‹å·¦å³å¯ä»¥æŽ§åˆ¶è…³è‰²ç§»å‹•
+3. æŒ‰éµ"C"å¯ä»¥åˆ‡æ›cameraä½ç½®
+4. éµç›¤"W""A""S""D"å¯ä»¥åœ¨ç©ºé–“ä¸­ç§»å‹•(ç§»å‹•camera)
+5. éµç›¤"SPACE"å¯ä»¥ä½¿è…³è‰²è·³èº
+6. æ»‘é¼ ç§»å‹•å¯ä»¥è½‰å‹•è¦–è§’
+7. æ»‘é¼ æ»¾è¼ªå¯ä»¥ZOOM
 
 
-¬ÛÃö³sµ²
+ç›¸é—œé€£çµ
 ==
 [HackMD](https://hackmd.io/s/Bk1QLx_hN)
+
 [GitHub](https://github.com/genius92606/character_OpenGL)
+
 [HW_PDF]()
 
