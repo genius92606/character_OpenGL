@@ -52,5 +52,5 @@ Windows10, visual studio 2015
 
 [GitHub](https://github.com/genius92606/character_OpenGL)
 
-[HW_PDF]()
+[HW_PDF](https://github.com/genius92606/character_OpenGL/blob/master/OpenGL_homework_3.pptx)
 
